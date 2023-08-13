@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Tecnología</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            display: inline-block;
+            width: 300px;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Tecnología</h1>
+    </header>
+    <div class="product">
+        <img src="celular.jpg" alt="Celular">
+        <h2>Celular Modelo X</h2>
+        <p>Precio: $500</p>
+        <video controls width="250">
+            <source src="celular_video.mp4" type="video/mp4">
+            Tu navegador no admite el elemento de video.
+        </video>
+    </div>
+    <div class="product">
+        <img src="audifonos.jpg" alt="Audífonos">
+        <h2>Audífonos Inalámbricos</h2>
+        <p>Precio: $100</p>
+        <video controls width="250">
+            <source src="audifonos_video.mp4" type="video/mp4">
+            Tu navegador no admite el elemento de video.
+        </video>
+    </div>
+    <div class="product">
+        <img src="parlantes.jpg" alt="Parlantes">
+        <h2>Parlantes Bluetooth</h2>
+        <p>Precio: $150</p>
+        <video controls width="250">
+            <source src="parlantes_video.mp4" type="video/mp4">
+            Tu navegador no admite el elemento de video.
+        </video>
+    </div>
+    <div class="product">
+        <img src="smartwatch.jpg" alt="Smartwatch">
+        <h2>Smartwatch Inteligente</h2>
+        <p>Precio: $200</p>
+        <video controls width="250">
+            <source src="smartwatch_video.mp4" type="video/mp4">
+            Tu navegador no admite el elemento de video.
+        </video>
+    </div>
+    <footer>
+        <p>&copy; 2023 Tienda de Tecnología. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>Çbody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    margin-top: 10px;
+}
+
+.product p {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
